@@ -109,8 +109,6 @@
             ```
         * Can use destructuring in nested objects and for-of iterations.
 
-* Spread - [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
-
 * Rest - [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
     * Rest parameters can be used at the end of a user supplied input to assign remaining values to a single array. This is true even if there is only one value or no value in the array.
     * Can use a map function to multiple the first value in the array by other values and return that result:
@@ -125,3 +123,15 @@
         console.log(arr)  // [30, 50, 84]
         ```
     * Rest array is a real array whereas the arguments object is not.
+
+* Spread - [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+    * Spread syntax looks the same as rest syntax but functionally does the opposite. Rest syntax condenses multiple elements into a single element, whereas rest syntax expands an array into its elements.
+    * Example:
+        ```
+        function myFunction(v, w, x, y, z) { }
+        let args = [0, 1];
+        myFunction(-1, ...args, 2, ...[3]);
+        ```
+    * The spread syntax can be used multiple times and does not need to be the last argument, as seen above.
+    * The spread argument eliminates the need for code bloat to accomplish the same task of array manipulation by use of push(), splice(), or concat().
+    * Spread syntax only goes one level deep which makes it unsuitable for multi-dimensional arrays.

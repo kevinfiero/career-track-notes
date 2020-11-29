@@ -32,7 +32,7 @@ The following is from the preparation work for Career Track. I have read each of
         * This series of tests combines destructuring with rest. The last two actually use spread.
 * Spread - [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
     * Array Spread - [Link](https://tddbin.com/#?kata=es6/language/spread/with-arrays)
-        * Blurb
+        * This series of tests illustrates the spread functionality. Even though spread has the same syntax as rest it is doing almost functionally the opposite. To me spread and rest are much easier to understand than destructuring.
 * Function Defaults - [Link](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters)
     * Function Defaults - [Link](https://tddbin.com/#?kata=es6/language/default-parameters/basics)
-        * Blurb
+        * This series of tests illustrates the concept of default parameters. It is similar to the exercise we did on *destructuring with defaults*.
